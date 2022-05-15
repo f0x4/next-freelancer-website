@@ -2,7 +2,7 @@ import React from "react";
 import Head from "next/head";
 import Script from "next/script";
 import ScrollToTop from "../components/scrollToTop";
-import LoadingScreen from "../components/Loading-Screen";
+import LoadingScreen from "../components/Loading-screen";
 import "../styles/main.scss";
 
 function MyApp({ Component, pageProps }) {
