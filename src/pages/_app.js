@@ -9,8 +9,8 @@ function MyApp({ Component, pageProps }) {
     return (
         <>
             <Head>
-                <title>_x</title>
-                <link rel="icon" href="/img/favico.ico" />
+                <title>Freelancer Website</title>
+                <link rel="icon" href="/img/favicon.ico" />
             </Head>
             <LoadingScreen />
             <Component {...pageProps} />
@@ -20,10 +20,6 @@ function MyApp({ Component, pageProps }) {
                 strategy="beforeInteractive"
                 id="splitting"
                 src="/js/splitting.min.js"
-            ></Script>
-            <Script
-                id="simpleParallax"
-                src="/js/simpleParallax.min.js"
             ></Script>
             <Script
                 id="isotope"
